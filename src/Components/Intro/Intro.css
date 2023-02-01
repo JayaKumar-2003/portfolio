@@ -1,0 +1,158 @@
+.intro {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+.i-name {
+    display: flex;
+    flex-direction: column;
+}
+.i-name :nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name :nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name :nth-child(3) {
+    font-weight:100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+.button {
+    
+    width: 6rem;
+    height: 2rem;
+    border-radius: 34px;
+    border:none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg,#fdc50f 26.71%,#fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251,161,40,0,0.42);
+}
+.button:hover {
+    cursor: pointer;
+    background: white;
+    color:var(--orange);
+    border: 1px solid var(--orange);
+}
+.i-icons {
+    z-index: 1;
+    display: flex;
+    gap: 0rem;
+}
+.i-icons * {
+   transform: scale(0.5); 
+}
+.i-icons * :hover {
+    cursor: pointer;
+}
+.i-right {
+    flex: 1;
+    position: relative;
+
+}
+.i-right * {
+    position: absolute;
+    z-index: 1 ;
+}
+.i-right :nth-child(1) {
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+    /* z-index: -3; */
+}
+.i-right :nth-child(2) {
+    /* z-index: -2; */
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -3rem;
+}
+.i-right :nth-child(3) {
+    /* z-index: -1; */
+    height: 20rem;
+     transform: rotate(15deg);
+     top: 1.7rem;
+     left: 7rem;
+}
+.i-right :nth-child(4) {
+    transform: scale(0.6);
+    top: -19%;
+    left: -24%;
+    border-radius: 50%;
+    padding: 0;
+}
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(212px);
+    z-index: -9;
+    top: -18px;
+    left: 56%;
+    filter: blur(72px);
+}
+.button-m {
+    margin-left: -5rem;
+}
+.first-card {
+    top: -4%;
+    left: 50%;
+}
+.second-card {
+    top: 18rem;
+    left: 0rem;
+}
+@media screen and (max-width:480px){
+    .intro {
+        flex-direction: column;
+    }
+    .i-right {
+        transform: scale(0.8);
+        left: -3rem;
+    }
+    .i-right .blur {
+        display: none;
+    }
+    .first-card{
+        top: 7rem;
+    }
+    .i-right :nth-child(1) { 
+        /* margin-left: -6rem;
+        z-index: -3; */
+        display: none;
+    }
+    .i-right :nth-child(2) { 
+        /* margin-left: -6rem;
+        z-index: -2; */
+        display: none;
+    }
+    .i-right :nth-child(3) { 
+        margin-left: -6rem;
+        z-index: -1;
+    }
+    .second-card {
+        margin-left: 5rem;
+    }
+   .i-icons {
+    z-index: 1;
+   }
+   .button-m {
+    z-index: 2;
+   }
+}
