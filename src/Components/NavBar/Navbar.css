@@ -43,18 +43,22 @@
     background: linear-gradient(180deg,#fdc50f 26.71%,#fb982f 99.36%);
     box-shadow: 0px 20px 24px 3px rgba(251,161,40,0,0.42);
 }
+
 .button:hover {
     cursor: pointer;
     background: white;
     color:var(--orange);
     border: 1px solid var(--orange);
 }
-
-.collapse {
+.hidden{
+    visibility: hidden;
+}
+/* 
+.collapse{
     margin-top: 1rem;
     float: right;
     display: none;
-}
+} */
 .menu-block {
     height: 20rem;
     background-color: gray;
@@ -69,12 +73,35 @@
     flex-direction: column;
     background-color: gray;
 }
-
-@media screen and (max-width:480px) {
+.bar {
+    visibility: hidden;
+}
+@media screen and (max-width:480px){ 
     .nav-right {
        display: none;
     }
-    .collapse {
-        display: block;
+    .hidden {
+        border-radius: 0.5rem;
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -5rem;
+        margin-top: 2.6rem;
+        background-color: var(--orange);
+        padding-left:1rem;
+        padding-right: 1rem;
+        width: 7rem;
+        border-radius: 1px solid black;
     }
+    
+    .hidden > Link :hover {
+       color: white;
+    }
+    .bar {
+        visibility: visible;
+        margin-left: 2rem;
+       margin-top: 0.6em;
+    }
+    
 }

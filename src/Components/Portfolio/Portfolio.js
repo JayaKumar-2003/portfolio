@@ -1,26 +1,29 @@
 import React from 'react';
 import './Portfolio.css';
-import {Swiper, SwiperSlide} from 'swiper/react';
+import calculator from '../../img/calculator.png';
+import amazona from '../../img/amazona.png';
+import Carousel from 'react-bootstrap/Carousel'
 export function Portfolio() {
     return (
         <div className='portfolio'>
             <span>Recent Project</span>
             <span>Portfolio</span>
-            <Swiper
-            spaceBetween={30}
-            slidesPerView={3}
-            grabCursor={true}
-            className='portfolio-slider'>
-                <SwiperSlide>
-                    <img src='' alt=''></img>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src='' alt=''></img>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src='' alt=''></img>
-                </SwiperSlide>
-            </Swiper>
+    <Carousel>
+      <Carousel.Item className='image'>
+        <img
+          className="d-block w-100"
+          src={calculator}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={amazona}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+    </Carousel>
         </div>
     );
 }

@@ -17,20 +17,27 @@ export function Navbar() {
                 <a href='/'>PortFolio</a>
                 <Toggle></Toggle>
            </div>
-          <div className='collapse' onClick={()=>setisOpen(!isOpen)}>
-              <i class="fa-solid fa-bars"></i>
-              {isOpen && <div className='collapse1'>
-                        <Link spy={true} to='Services' smooth={true} activeClass='activeClass'>
-                        <span>Services</span>
-                        </Link>
-                        <Link spy={true} to='Works' smooth={true} activeClass='activeClass'>
-                        <span>About me</span>
-                        </Link>
-                        <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
-                       <span>Contact</span>
-                        </Link>
-                </div>}
-          </div>
+
+        <div className='bar'>
+        <i  class="fas fa-bars"  onClick={()=>setisOpen(!isOpen)}></i>
+        </div>
+        <div className='hidden-top'>
+        {isOpen && <div className="hidden">
+            <Link spy={true} to='Navbar' smooth={true} activeClass='activeClass'>
+            <span>Home</span>
+            </Link>
+            <Link spy={true} to='Services' smooth={true} activeClass='activeClass'>
+            <span>Service</span>
+            </Link>
+            <Link spy={true} to='Works' smooth={true} activeClass='activeClass'>
+            <span>About me</span>
+            </Link>
+            <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
+            <span>Contact</span>
+            </Link>      
+        </div>}
+        </div>
+          
            <div className='nav-right'>
                 <div className='nav-list'>
                     <ul style={{listStyleType:'none'}}>
@@ -48,7 +55,7 @@ export function Navbar() {
                         </Link>
                     </ul>
                 </div>
-                <button className='button'>Contact</button>
+                <Link spy={true}  to='Contact' smooth={true} activeClass='activeClass'><button className='button'>Contact</button></Link>
            </div>
            </div>
         

@@ -4,7 +4,7 @@ import HeartEmoji from '../../img/heartemoji.png';
 import Glasses from '../../img/glasses.png';
 import Humble from '../../img/humble.png';
 import Card from '../../Components/Card/Card.js';
-import Resume from './Eunimart-Resume.pdf';
+import Resume from './Resume.pdf';
 export function Services () {
     return(
         <div className='services1' id='Services'>
@@ -24,7 +24,7 @@ export function Services () {
             <div className='st-card'>
                 <Card emoji={HeartEmoji} 
                  heading={'Design'}
-                 detail={"Figma,UI/Ux,Adobe"}
+                 detail={"Figma,UI/Ux"}
                 />
             </div>
             <div className='nd-card' >
@@ -35,8 +35,8 @@ export function Services () {
             </div>
             <div className="rd-card">
                 <Card emoji={Humble} 
-                 heading={"Deoper"}
-                 detail={"Html,Css,React,MERN"}
+                 heading={"Developer"}
+                 detail={"C,Java,Python,JavaScript"}
                 />
             </div>
             </div>

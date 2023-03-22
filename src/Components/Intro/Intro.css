@@ -25,6 +25,8 @@
     font-size: 3rem;
 }
 
+
+
 .i-name :nth-child(3) {
     font-weight:100;
     font-size: 14px;
@@ -50,9 +52,10 @@
     border: 1px solid var(--orange);
 }
 .i-icons {
+    margin-left: -2rem;
     z-index: 1;
     display: flex;
-    gap: 0rem;
+    align-items: center;
 }
 .i-icons * {
    transform: scale(0.5); 
@@ -150,9 +153,13 @@
         margin-left: 5rem;
     }
    .i-icons {
+    margin-left: -3rem;
     z-index: 1;
    }
    .button-m {
     z-index: 2;
+   }
+   .blur{
+    display: none;
    }
 }

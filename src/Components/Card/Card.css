@@ -11,7 +11,10 @@
     border: 7px solid var(--orange);
     box-shadow: var(--boxShadow);
     border-radius: 20px;
-    padding: 0px 26px 2rem 26px;
+    padding: 0px 26px 14rem 28px;
+    padding-bottom: 14rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
     /* transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
     transform: scale(0.8); */
 }

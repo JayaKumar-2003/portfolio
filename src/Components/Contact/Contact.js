@@ -32,7 +32,7 @@ export function Contact () {
                     <input type="text" name='user_name' className='user' placeholder='Name'></input>
                     <input type="email" name='user_email' className='user' placeholder='Email'></input>
                     <textarea name='message' className='user' placeholder='Message'></textarea>
-                    <input type="submit" value="Send" className='button' ></input> 
+                    <input type="submit" value="Send" className='button button-one-class' ></input> 
                     <span>{done &&"Thanks for contacting me"}</span>
                     <div className='blur c-blurl' style={{background:"var(--purple)"}}>
                     </div>
