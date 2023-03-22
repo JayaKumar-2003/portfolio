@@ -9,11 +9,21 @@ export function Footer() {
         <div className='footer'>
             <img src={Wave} alt=''></img>
             <div className='f-content'>
+                <div className='about'>
+                <div className='name-div'>
                 <span className='name'>jayakumar112234@gmail.com</span>
+                </div>
+                <div className='self-contact'>
+                <span className='contact'>(91+) 8610239688</span>
+                </div>
+                <div className='self-location'>
+                    <span>Tiruchengode</span>
+                </div>
+                </div>
                 <div className='f-icons'>
-                    <Insta color='white' size='3rem'></Insta>
-                    <Facebook color='white' size='3rem'></Facebook>
-                    <Github color='white' size='3rem'></Github>
+                <a href='https://instagram.com/jayakumar8113?igshid=ZDdkNTZiNTM=' target='blank' ><Insta color='white' size='3rem'></Insta></a>
+                <a href='https://www.facebook.com/profile.php?id=100014515151690&mibextid=ZbWKwL' target='blank' ><Facebook color='white' size='3rem'></Facebook></a>
+                <a href='https://github.com/JayaKumar-2003?tab=packages' target='blank'> <Github color='white' size='3rem'></Github></a>
                 </div>
             </div>
         </div>

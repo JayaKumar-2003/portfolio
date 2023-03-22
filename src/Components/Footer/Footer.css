@@ -20,6 +20,22 @@
     display: flex;
     gap: 2rem;
 }
+.insta {
+    display: flex;
+    gap: 0.5rem;
+}
+.facebook {
+    display: flex;
+    gap: 0.5rem;
+}
+.github {
+    display: flex;
+    gap: 0.5rem;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+}
 @media screen and (max-width:480px){
     .footer img {
         display: none;
@@ -28,10 +44,17 @@
         margin-top: 18rem;
     }
     .name{
-        margin-top: -20rem;
+        color: var(--orange);
         
     }
     .f-icons {
         margin-top: -1rem;
     }
+    .contact {
+        color: var(--orange);
+    }
+    .about {
+        margin-top: -34rem;
+    }
+
 }
