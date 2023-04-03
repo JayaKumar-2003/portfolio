@@ -28,7 +28,7 @@ export function Intro() {
                     <a href='https://github.com/JayaKumar-2003?tab=packages' target='blank'> <img src={Github} alt=""></img></a>
                     <a href='https://instagram.com/jayakumar8113?igshid=ZDdkNTZiNTM=' target='blank' ><img src={Instagram} alt=""></img></a>
                     <a href='https://www.linkedin.com/in/jayakumar-s-7a11a321a/' target='blank'> <img src={Linkedin} alt=""></img></a>  
-                    <a href='https://github.com/JayaKumar-2003?tab=packages' target='blank'><img src={Twitter} alt=""></img></a>
+                    <a href='https://twitter.com/JayaKum29613536?t=7fuKI77vJR_8WGNbaXJIzQ&s=09' target='blank'><img src={Twitter} alt=""></img></a>
                 </div>
             </div>
             <div className='i-right'>

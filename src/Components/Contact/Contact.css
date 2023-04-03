@@ -5,6 +5,9 @@
 .c-right {
     margin-left: 10rem;
 }
+.c-right span {
+    color: var(--black);
+}
 .c-right  form{
     display: flex;
     flex-direction: column;

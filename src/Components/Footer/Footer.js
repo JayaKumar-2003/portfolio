@@ -21,9 +21,9 @@ export function Footer() {
                 </div>
                 </div>
                 <div className='f-icons'>
-                <a href='https://instagram.com/jayakumar8113?igshid=ZDdkNTZiNTM=' target='blank' ><Insta color='white' size='3rem'></Insta></a>
-                <a href='https://www.facebook.com/profile.php?id=100014515151690&mibextid=ZbWKwL' target='blank' ><Facebook color='white' size='3rem'></Facebook></a>
-                <a href='https://github.com/JayaKumar-2003?tab=packages' target='blank'> <Github color='white' size='3rem'></Github></a>
+                <a href='https://instagram.com/jayakumar8113?igshid=ZDdkNTZiNTM=' target='blank' ><Insta color='var(--black)' size='3rem'></Insta></a>
+                <a href='https://www.facebook.com/profile.php?id=100014515151690&mibextid=ZbWKwL' target='blank' ><Facebook color='var(--black)' size='3rem'></Facebook></a>
+                <a href='https://github.com/JayaKumar-2003?tab=packages' target='blank'> <Github color='var(--black)' size='3rem'></Github></a>
                 </div>
             </div>
         </div>
