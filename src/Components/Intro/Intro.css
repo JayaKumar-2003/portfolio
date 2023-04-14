@@ -76,7 +76,8 @@
     transform: scale(0.69);
     left: -15%;
     top: -9%;
-    /* z-index: -3; */
+    z-index: 1;
+    
 }
 .i-right :nth-child(2) {
     /* z-index: -2; */
@@ -87,7 +88,7 @@
 .i-right :nth-child(3) {
     /* z-index: -1; */
     height: 20rem;
-     transform: rotate(15deg);
+     /* transform: rotate(20deg); */
      top: 1.7rem;
      left: 7rem;
 }
@@ -119,7 +120,7 @@
 }
 .second-card {
     top: 18rem;
-    left: 0rem;
+    left: 2rem;
 }
 @media screen and (max-width:480px){
     .intro {
@@ -132,13 +133,25 @@
     .i-right .blur {
         display: none;
     }
-    .first-card{
-        top: 7rem;
+    .i-right :nth-last-child(3) {
+       visibility: visible;
+        
     }
-    .i-right :nth-child(1) { 
-        /* margin-left: -6rem;
-        z-index: -3; */
+    .vector {
         display: none;
+    }
+    
+    .first-card{
+        background-color: black;
+        margin-top: -10rem;
+        
+    }
+    .first-card {
+        margin-top: -50px;
+        margin-left: -60px;
+    }
+    .second-card {
+        margin-left: -5rem;
     }
     .i-right :nth-child(2) { 
         /* margin-left: -6rem;
@@ -146,12 +159,10 @@
         display: none;
     }
     .i-right :nth-child(3) { 
-        margin-left: -6rem;
+        margin-left: -5rem;
         z-index: -1;
     }
-    .second-card {
-        margin-left: 5rem;
-    }
+    
    .i-icons {
     margin-left: -3rem;
     z-index: 1;

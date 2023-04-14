@@ -17,7 +17,7 @@ export function Footer() {
                 <span className='contact'>(91+) 8610239688</span>
                 </div>
                 <div className='self-location'>
-                    <span>Tiruchengode</span>
+                    <span className='contact'>Tiruchengode</span>
                 </div>
                 </div>
                 <div className='f-icons'>

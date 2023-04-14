@@ -11,14 +11,19 @@
 }
 .floating-main  :nth-child(1) {
     position: sticky;
+   
 }
 .floating-main  :nth-child(2) {
+    margin-top: -0.2rem;
+    margin-left: -2rem;
     position:sticky;
     font-size:2rem;
+    
 }
-@media  screen and(max-width:480px) {
+@media screen and (max-width:480px){
+    
     .floating-main {
-        position: relative;
-        
+        display: flex;
+        gap: 2rem;
     }
 }

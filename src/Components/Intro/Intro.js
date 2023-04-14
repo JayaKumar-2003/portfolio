@@ -12,6 +12,7 @@ import Twitter from '../../img/twitter.png';
 import glassesimoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../../Components/FloatingDiv/FloatingDiv.js';
 import {Link} from 'react-scroll';
+
 export function Intro() {
     return(
         <div className='intro'>
@@ -32,12 +33,12 @@ export function Intro() {
                 </div>
             </div>
             <div className='i-right'>
-                  <img src={Vector1} alt=''></img>
-                  <img src={Vector2} alt=''></img>
+                  <img src={Vector1} alt='' className='vector'></img>
+                  <img src={Vector2} alt='' className='vector'></img>
                   <img src={boy} alt='' ></img>
                   <img src={glassesimoji} alt=""></img>
                   <div className='first-card' >
-                  <FloatingDiv image={Crown} txt1='Web' txt2='Developer' className='floating-div'></FloatingDiv>
+                  <FloatingDiv image={Crown} txt1='Web' txt2='Developer' className='floating-div1'></FloatingDiv>
                   </div>
                   <div className='second-card'>
                     <FloatingDiv image={thumbup} txt1='Best' txt2='Designer' className='floating-div'></FloatingDiv>

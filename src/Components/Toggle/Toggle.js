@@ -7,6 +7,7 @@ import { useContext } from 'react';
 export function Toggle () {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
+
     const handleClick = () => {
         theme.dispatch({type :'toggle'})
     }
