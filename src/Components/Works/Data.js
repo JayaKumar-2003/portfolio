@@ -3,15 +3,15 @@ const details ={
     program : {
         c   : {
             name:'C:',
-            value:'60',
+            value:'55',
         },
         java: {
             name:'JAVA :',
-            value:'60',
+            value:'70',
         },
         python : {
             name:'PYTHON :',
-            value:'60',
+            value:'50',
         },
     },
     studies :{

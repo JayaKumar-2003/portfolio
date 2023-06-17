@@ -1,10 +1,11 @@
 import React from 'react';
 import './Services.css';
+import Resume from'./Resume.pdf';
 import HeartEmoji from '../../img/heartemoji.png';
 import Glasses from '../../img/glasses.png';
 import Humble from '../../img/humble.png';
 import Card from '../../Components/Card/Card.js';
-import Resume from './Resume.pdf';
+
 export function Services () {
     return(
         <div className='services1' id='Services'>
